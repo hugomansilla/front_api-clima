@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Api clima</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!--Google Fonts OpenSans & Raleway -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway:700" rel="stylesheet">
+
+	<!-- Main Styles -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+<!-- Cuerpo de la app del clima-->	
+	<div class=container>
+		<h1 class="text-center"> App para consultar el clima </h1>
+		<br>
+		<br>
+	</div>
+	<!-- Izquierda de la app-->
+	<div class="col-md-6">	
+		<div class=""></div>
+	</div>
+	<!-- Derecha de la app-->
+	<div class="col-md-6">
+			<div class="form-group">
+				<select class="form-control" id="select">
+					<option>Seleccione una ubicación: </option>
+					<option value="puq"> Puerto Natales </option>
+					<option value="pun"> Punta Arenas </option>
+					<option value="por"> Porvenir </option>
+				</select>
+			</div>
+			<h2 id="resumen"></h2>
+			<table class="table table-striped">
+				<tr>
+					<td>Sensación térmica:</td>
+					<td id="termica"></td>
+				</tr>
+				<tr>
+					<td>Probabilidad de lluvia:</td>
+					<td id="lluvia"></td>
+				</tr>
+			</table>
+	</div>
+
+
+
+	<!-- Dependencias finales-->
+
+	<!-- Jquery 3.3.1-->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<!-- Font Awesome 5.4.2.-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+
+	<!-- Main scripts-->
+	<script src="assets/js/app.js" type="text/javascript"></script>
+
+</body>
+</html>
